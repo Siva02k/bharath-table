@@ -5,111 +5,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tables</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
- th,td{
-    border: 1px solid black;
- }
-</style>
 
 <body>
-    <div>
-        <p>Table 1</p>
-        <table style="border: 1px solid black; width: 100%;">
-            <tr>
-                <th>s.no</th>
-                <th>cars name</th>
-                <th>showroom place</th>
-                <th>price</th>
-                <th>Car Image</th>
-            </tr>
-            <tbody>
+    <div class="classA">
+        <p class="center"> Table 1</p>
+        <table class="table1">
+            <thead class="thead1">
+                <tr class="tr1">
+                    <th>s.no</th>
+                    <th>cars name</th>
+                    <th>showroom place</th>
+                    <th>price</th>
+                    <th>Car Image</th>
+                </tr>
+            </thead>
+            <tbody class="tbody1">
                 <tr>
                     <td>1</td>
                     <td>baleno</td>
                     <td>nagercoil</td>
                     <td>10L</td>
-                    <td><img src="nexa/baleno_tile.webp" width="50px" height="40px" alt=""></td>
+                    <td><img src="nexa/baleno_tile.webp" class="image1" alt=""></td>
                 </tr>
                 <tr>
                     <td>2</td>
                     <td>baleno</td>
                     <td>nagercoil</td>
                     <td>10L</td>
-                    <td><img src="nexa/baleno_tile.webp" width="50px" height="40px" alt=""></td>
+                    <td><img src="nexa/baleno_tile.webp" class="image1"  alt=""></td>
                 </tr>
                 <tr>
                     <td>3</td>
                     <td>baleno</td>
                     <td>nagercoil</td>
                     <td>10L</td>
-                    <td><img src="nexa/baleno_tile.webp" width="50px" height="40px" alt=""></td>
+                    <td><img src="nexa/baleno_tile.webp" class="image1" alt=""></td>
                 </tr>
                 <tr>
                     <td>4</td>
                     <td>baleno</td>
                     <td>nagercoil</td>
                     <td>10L</td>
-                    <td><img src="nexa/baleno_tile.webp" width="50px" height="40px" alt=""></td>
+                    <td><img src="nexa/baleno_tile.webp" class="image1" alt=""></td>
                 </tr>
                 <tr>
                     <td>5</td>
                     <td>baleno</td>
                     <td>nagercoil</td>
                     <td>10L</td>
-                    <td><img src="nexa/baleno_tile.webp" width="50px" height="40px" alt=""></td>
+                    <td ><img src="nexa/baleno_tile.webp"  alt="" class="image1"></td>
                 </tr>
             </tbody>
         </table>
     </div>
-    <br>
-    <br>
-    <br>
-    <div>
-        <table style="border: 1px solid black; width: 100%;">
-            <tr>
-                <th>s.no</th>
-                <th colspan="2">file</th>
-                <th>pdf</th>
-            </tr>
-            <tbody style="border: 1px solid black;">
-                <tr>
-                    <td>1</td>
-                    <td>ctp1</td>
-                    <td>tamil</td>
-                    <td><a href="Untitled spreadsheet - Sheet1.pdf">Downloard Pdf</a></td>
-                    
-
+   
+    <div class="classB">
+        <p class="center2">Table2</p>
+        <table class="table2">
+            <thead class="thead2">
+                <tr class="tr2">
+                    <th>s.no</th>
+                    <th colspan="2">file</th>
+                    <th>pdf</th>
                 </tr>
+            </thead>
+            <tbody>
                 <tr>
-                    <td>2</td>
-                    <td>ctp2</td>
-                    <td>tamil</td>
-                    <td><a href="Untitled spreadsheet - Sheet1.pdf">Downloard Pdf</a></td>
+                    <td class="e1">1</td>
+                    <td class="e1">ctp1</td>
+                    <td class="e1">tamil</td>
+                    <td class="e1"><a href="Untitled spreadsheet - Sheet1.pdf">Downloard Pdf</a></td>
 
 
                 </tr>
-                <tr>
-                    <td>3</td>
-                    <td>ctp1</td>
-                    <td>english</td>
-                    <td><a href="Untitled spreadsheet - Sheet1.pdf">Downloard Pdf</a></td>
-
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>ctp2</td>
-                    <td>english</td>
-                    <td><a href="Untitled spreadsheet - Sheet1.pdf">Downloard Pdf</a></td>
+                <tr class="tr1">
+                    <td class="e1">2</td>
+                    <td class="e1">ctp2</td>
+                    <td class="e1">tamil</td>
+                    <td class="e1"><a href="Untitled spreadsheet - Sheet1.pdf">Downloard Pdf</a></td>
 
 
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td>total</td>
-                    <td>4</td>
+                    <td class="e1">3</td>
+                    <td class="e1">ctp1</td>
+                    <td class="e1">english</td>
+                    <td class="e1"><a href="Untitled spreadsheet - Sheet1.pdf">Downloard Pdf</a></td>
+
                 </tr>
+                <tr class="tr1">
+                    <td class="e1">4</td>
+                    <td class="e1">ctp2</td>
+                    <td class="e1">english</td>
+                    <td class="e1"><a href="Untitled spreadsheet - Sheet1.pdf">Downloard Pdf</a></td>
+
+
+                </tr>
+            <tfoot class="tfoot1">
+                <tr>
+                    <td class="e1" colspan="3">
+                        total
+                    </td>
+                    <td class="e1">4</td>
+                </tr>
+            </tfoot>
             </tbody>
         </table>
     </div>
